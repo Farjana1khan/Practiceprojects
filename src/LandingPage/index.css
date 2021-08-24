@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+      margin: 0;
+
+      padding: 0;
+
+      box-sizing: border-box;
+      font-weight: "Muli", sans-serif;
+}
+
+.navbar {
+      background-color: #B6DEDF !important;
+      padding-left: 1rem;
+}
+
+h5,
+h4 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: smaller;
+      font-size: xx-small;
+      padding-left: 2rem;
+}
+
+/* .btn-get-started{
+ 
+} */
+
+.brand-name {
+      color: #3498db;
+      font-weight: 10px;
+      margin-top: 90px;
+      font-style: oblique;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: larger;
+}
+
+.navbar-brand {
+      font-size: 1.5rem !important;
+      color: rgb(38, 23, 117) !important;
+      text-transform: capitalize;
+      padding-left: 0px;
+
+}
+
+.navbar a {
+      font-size: 1.3rem;
+      text-transform: capitalize;
+      color: rgb(38, 23, 117);
+
+}
+
+
+.img-fluid {
+      width: 350px;
+      height: 1000px;
+
+}
+
+
+.menu_active {
+      font-weight: bold;
+      border-bottom: 1px solid #565387;
+}
+
+.navbar a:hover {
+      color: #3498db !important;
+      font-weight: 10px;
+
+}
+
+#header .btn-get-started {
+      font-weight: 500;
+      font-size: 12px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 10px 10px;
+      margin-left: 2rem;
+      border-radius: 50px;
+      transition: 0.5s;
+      color: #3498db;
+      border: 2px solid #3498db;
+      text-decoration: none;
+
+}
+
+#header .btn-get-started:hover {
+      background: #3498db;
+      color: #fff;
+
+}
+
+.header-img {
+      text-align: center;
+
+}
+
+#header .animated {
+      animation: up-down 2s ease-in-out infinite alternate-reverse both;
+
+}
+
+@keyframes up-down {
+      0% {
+            transform: translate(10px);
+      }
+
+      100% {
+            transform: translateY(-10px);
+      }
+}
+
+
+
+@media(max-width:991px) {
+      .navbar-brand {
+            font-size: 1.5rem !important;
+
+      }
+
+      .menu_active {
+            font-weight: bold;
+            border-bottom: none;
+      }
+}
+
+
+/* Main Landing Section */
+
+#header {
+      width: 100%;
+      height: 90vh;
+      margin-top: 70px;
+}
+
+#header h4 {
+      margin: 0 0 10px 0;
+      font-size: 25px;
+      font-weight: 700;
+      color: black;
+
+}
+
+#header .brand-name {
+      color: #3498db;
+      font-weight: 800px;
+      font-size: 30px;
+}
+
+#header h5 {
+      color: #448844;
+}

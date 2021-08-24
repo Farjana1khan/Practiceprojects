@@ -1,0 +1,30 @@
+.signup{
+     
+      border: 1px solid #ddd;
+     border-radius: 10px;
+      margin: 20px auto;
+      padding: 20px;
+      width: 700px;
+
+}  
+ .title{
+   color: blueviolet;
+   font-weight: 600;
+   margin-top:0;
+} 
+
+ .form-control{
+      padding: 0px;
+      margin: 0px;
+}  
+
+ 
+.form-group{
+
+padding-top:  10px;
+}
+
+
+span{
+      color: red;
+}

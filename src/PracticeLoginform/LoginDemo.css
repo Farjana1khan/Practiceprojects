@@ -1,0 +1,23 @@
+.signup{
+      box-sizing: border-box;
+      border: 1px solid #ddd;
+       width: 700px;
+       margin: 20px auto;
+       padding: 20px;
+       border-radius: 5px; 
+}
+.title{
+      font-weight: 600;
+      margin-top: 0;
+       color: blue;
+}
+
+.err {
+      font-size: small;
+      color: red;
+}
+
+.asterisk {
+      font-size: small;
+      color: red;
+}

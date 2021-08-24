@@ -1,0 +1,37 @@
+/*  
+ 
+ .funct{
+  font-style: italic;
+  color: green;
+  text-align: center;
+  background-color: aqua;
+  padding: 20px;
+ margin: 40px;
+ 
+}
+ .App1{
+  font-style: italic;
+ color: yellow;
+  text-align: center;
+background-color: blueviolet;
+  padding: 10px;
+ margin: 40px;
+ } 
+
+ .score{
+   text-align: center;
+   color: brown;
+ } */
+
+
+ 
+ .App{
+  font-style: italic;
+  
+ color: black;
+  text-align: center;
+background-color: coral;
+  padding: 100px;
+ margin: 40px;
+ border-radius: 20px;
+ } 

@@ -1,0 +1,32 @@
+.message{
+      color: blueviolet;
+      background-color: aquamarine;
+      padding: 10px 25px;
+      font-style: oblique;
+      font-size: large;
+}
+
+.App{
+       border: 1px solid black;
+       align-items: center; 
+       margin: 300px ;
+    
+    background-color: rgba(194, 21, 21, 0.603);
+    padding-bottom: 5rem;
+    padding-left: 7rem;
+
+}
+ .player{
+      align-items: center;
+      padding: 50px;
+      overflow: hidden;
+
+} 
+
+.File{
+     color: blueviolet;
+   
+     margin: 50px;
+     padding: 400px;
+     padding-top: 0px;
+}

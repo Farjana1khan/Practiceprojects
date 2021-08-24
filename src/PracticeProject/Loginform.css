@@ -1,0 +1,52 @@
+
+  .App{
+  font-style: italic;
+  
+ color: black;
+  
+background-color: lightblue;
+  padding: 50px;
+  
+ margin: 350px;
+ border-radius: 20px;
+ }  
+
+
+
+
+ .row{
+   align-items: center;
+ }
+ #form-control h1{
+      
+       padding:0px ;
+       padding-bottom: 4rem; 
+ }
+
+ h1{
+   text-align: center;
+ }
+/* 
+ #form-group{
+   font-size: 20px;
+ } */
+
+ label{
+   font-style: initial;
+   text-align: right;
+ }
+
+
+img{
+   /* display:block;  */
+ margin:10px 0px 0px 0px;
+ /* margin-right: 100%; */
+ padding-right: 0px;
+ white-space: pre-wrap;
+ padding-bottom: 20px;
+ 
+}
+
+.btn {
+  margin: 10px;
+}
