@@ -1,7 +1,7 @@
 const { chart } = require("highcharts");
 var React = require("react");
 var Component = React.Component;
-var CanvasJSReact = require("./canvasjs.react");
+var CanvasJSReact = require("./canvasjs");
 var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 class Chart extends Component {

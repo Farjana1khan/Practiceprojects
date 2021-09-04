@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { setState, Component } from "react";
 
 export default class DidMountDidUpdate extends Component {
   constructor(props) {
@@ -11,7 +11,7 @@ export default class DidMountDidUpdate extends Component {
   }
 
   componentDidMount() {
-    document.title = "Class counter : ${this.state.counter} - clue";
+    document.title = `Class counter : ${this.state.counter} - clue`;
   }
 
   componentDidUpdate(prevProps, prevState) {
@@ -22,8 +22,8 @@ export default class DidMountDidUpdate extends Component {
   }
 
   render() {
-    //     const [counter, setCounter] = useState(0);
-    //     const [name, setState] = useState("");
+        const [counter, setCounter] = useState(0);
+       const [name, setState] = useState("");
     return (
       <div>
         <div>

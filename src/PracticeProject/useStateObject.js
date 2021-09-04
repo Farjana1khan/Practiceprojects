@@ -22,28 +22,31 @@ export default function useStateObject () {
       <input
        type="text"
        name="name"
-      value="{user.name}"
-      onchange="{handleChange}" />
+      value={user.name}
+      onchange={handleChange} />
       <br><br>
       <label>Email:</label>
       <input 
       type="text"
        name="email" 
-       value="{user.email}" 
-       onchange="{handleChange}" />
+       value={user.email}
+       onchange={handleChange} />
       <br/><br/>
       <label>Age:</label>
       <input 
       type="text" 
       name="age" 
-      value="{user.age}" 
-      onchange="{handleChange}" />
+      value={user.age}
+      onchange={handleChange} />
       <br><br>
       <label>Output:</label>
       <pre>{JSON.stringify(user, null, 2)}</pre>
       
      
+
+  
 </div>
            
-      );
+      );                   
 }
+

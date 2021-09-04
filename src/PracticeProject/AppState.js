@@ -22,7 +22,7 @@ state ={
             
             <Student name={this.state.student[0].name}/>
             <Student name={this.state.student[1].name}/>
-            <Student name={this.state.student[3].name}/>
+            <Student name={this.state.student[2].name}/>
            
         </div>
             </div>

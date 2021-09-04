@@ -1,10 +1,11 @@
-import React, { useEffect, Component } from "react";
+// import React, { useEffect, Component } from "react";
 
 export default class DidMount extends Component {
-//   componentDidMount() {
-//     document.title = "Class example: componentDidMount";
-//   }
+  // componentDidMount() {
+  //   document.title = "Class example: componentDidMount";
+  // }
 
+  
 
 const HookExample = () =>
 {

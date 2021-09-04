@@ -25,7 +25,7 @@ function Main() {
           <ReactImageMagnify {...imageProps} />
         </div>
         <div className="col-md-7">
-          <a className="mb-3 d-block" href="http://www.cluemediator.com">
+          <a className="mb-3 d-block">
             Clue Mediator Tutorial
           </a>
           <p className="title">Phasellus laoreet</p>

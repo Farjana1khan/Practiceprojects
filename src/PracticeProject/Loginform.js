@@ -111,7 +111,7 @@ class Loginform extends Component {
 
             <input
               type="button"
-              className="btn btn-success"
+              className="btn btn-success form-control"
               onClick={this.loginClick}
               value="Submit"
             />

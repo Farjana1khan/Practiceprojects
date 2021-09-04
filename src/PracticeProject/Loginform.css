@@ -47,6 +47,10 @@ img{
  
 }
 
-.btn {
-  margin: 10px;
+ .btn {
+  margin: 15px;
+ 
+  position: relative;
+  margin-left: 0px;
+ display: block;
 }

@@ -8,34 +8,35 @@ import "bootstrap/dist/css/bootstrap.min.css";
 //import FunctionalCompo from './FunctionalCompo';
 //import ClassComponent from './ClassComponent';
 //import Student from './Student';
-//import NewComponent from './NewComponent';
+//import NewComponent from './PracticeProject/NewComponent';
 
 //import Booklist from './Booklist';
-//import Message from './Message'
-//import Counter from './Counter';
+//import Message from './PracticeProject/Message'
+import Counter from './PracticeProject/Counter';
 
-// import Props1 from './Props1';
-// import Contact from './Contact';
+ //import Props1 from './PracticeProject/Props1';
+ //import Contact from './PracticeProject/Contact';
 //import RegisterForm from "./PracticeProject/RegisterForm";
-import Loginform from "./PracticeProject/Loginform";
+//import Loginform from "./PracticeProject/Loginform";
 
 // import ClassComponentUses from "./ClassComponentUses";
 //import LoginDemo from "./PracticeLoginform/LoginDemo";
 //import showtab from "./showtab";
 //import LoginForm from "./LoginFormDemo/LoginForm";
 //import LoginwithValid from "./LoginFormWithValidation/LoginwithValid";
-// import Ratingcomponent from "./PracticeProject/Ratingcomponent";
+//import Ratingcomponent from "./PracticeProject/Ratingcomponent";
 //import TimePicker from "./PracticeProject/TimePicker";
-//mport BarChart from "./PracticeProject/BarChart";
+//import BarChart from "./PracticeProject/BarChart";
 
 //import ImageUpload from "./PracticeProject/ImageUpload";
 //import DidMount from "./PracticeProject/DidMount";
-///import DidMountDidUpdate from "./PracticeProject/DidMountDidUpdate";
+//import DidMountDidUpdate from "./PracticeProject/DidMountDidUpdate";
 //import HooksExample from "./PracticeProject/HookExample";
 //import Chart from "./PracticeProject/Chart";
 //import Ccard from "./PracticeProject/Ccard";
 //import AutoScroll from "./PracticeProject/AutoScroll";
 //import wizard from "./PracticeProject/wizard";
+//import  Appstate from './PracticeProject/AppState'
 //import  AudioPlayer from './PracticeProject/AudioPlayer'
 //import useStateObject from "./PracticeProject/useStateObject";
 //import CSVFile from "./PracticeProject/CSVFile";
@@ -43,7 +44,7 @@ import Loginform from "./PracticeProject/Loginform";
 
 // import ClassCounter from "./HooksExampleAndClass/ClassCounter";
 // import HookCounter from "./HooksExampleAndClass/HookCounter";
-// import Update from "./PracticeProject/Update";
+ //import Update from "./PracticeProject/Update";
 
 //import Script from "./importexportfile/Script";
 //import Main from "./RoutingPage/Main";
@@ -80,6 +81,7 @@ ReactDOM.render(
     {/* <Update /> */}
     {/* <CSVFile /> */}
     {/* <useStateObject /> */}
+    {/* <Appstate/> */}
     {/* <AudioPlayer /> */}
     {/* <wizard /> */}
     {/* <AutoScroll /> */}
@@ -98,14 +100,15 @@ ReactDOM.render(
     {/* <LoginDemo /> */}
     {/* <LoginwithValid /> */}
     {/* <ClassComponentUses /> */}
-    <Loginform />
+    {/* <Loginform /> */}
     {/* <RegisterForm /> */}
     {/* <Contact/> */}
     {/* <Props1 /> */}
-    {/* <Counter /> */}
+    <Counter />
     {/* <Message /> */}
+    {/* <NewComponent /> */}
     {/* <FunctionalCompo />
-    
+   
     <ClassComponent />
     <Student /> */}
   </React.StrictMode>,

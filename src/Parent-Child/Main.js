@@ -5,7 +5,7 @@ class Main extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      inputVal: "Farjana",
+      inputVal: "Farjana...",
     };
     this.onInputChange = this.onInputChange.bind(this);
   }
@@ -20,7 +20,8 @@ class Main extends Component {
         <h3>Parent Component</h3>
         <hr />
         Input:{" "}
-        <input value={this.state.inputVal} onChange={this.onInputChange} />
+        <input value={this.state.inputVal}
+        onChange={this.onInputChange} />
         <Child elementValue={this.state.inputVal} />
       </div>
     );

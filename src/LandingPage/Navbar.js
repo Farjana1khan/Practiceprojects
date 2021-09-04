@@ -8,6 +8,7 @@ const Navbar = () => {
           <div className="col-12 max-auto">
             <nav className="navbar navbar-expand-lg">
               <div className="container-fluid">
+               
                 <NavLink
                   // activeClassName="menu_active"
 

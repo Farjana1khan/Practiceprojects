@@ -19,33 +19,11 @@ class RegisterForm extends Component {
         pass: null,
       },
 
-      //this.nameField = this.nameField.bind(this);
-      //  this.loginClick = this.loginClick = this.loginClick.bind(this);
+     
     };
   }
 
-  // loginClick(event) {
-  //   console.log(
-  //     this.state.username +
-  //       " " +
-  //       this.state.emailname +
-  //       " " +
-  //       this.state.passname
-  //   );
-  // }
-
-  // nameField = (e) => {
-  //   this.setState({ username: e.target.value });
-  // };
-
-  // emailField = (e) => {
-  //   this.setState({ emailname: e.target.value });
-  // };
-
-  // passField = (e) => {
-  //   this.setState({ passname: e.target.value });
-  // };
-  handleChange = (e) => {
+    handleChange = (e) => {
     const { name, value, checked } = e.target;
     const { form, formErrors } = this.state;
     let formObj = {};
