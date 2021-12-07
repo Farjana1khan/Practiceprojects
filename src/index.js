@@ -56,8 +56,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 //import Strongpass from "./StrongPassword//Strongpass";
 //import Main from "./LandingPage/Main";
 //import NumberIncrement from "./WorkingState/NumberIncrement";
-import GetValue from "./SelectMultivalue/GetValue"
-
+//import GetValue from "./SelectMultivalue/GetValue"
+import Main from "./useState/UseState";
 import * as serviceWorker from "./PracticeProject/serviceWorker";
 function App() {
   return (
@@ -74,12 +74,13 @@ function App() {
 export default App;
 ReactDOM.render(
   <React.StrictMode>
-<GetValue />
+    <Main />
+    {/* <GetValue /> */}
 
     {/* <NumberIncrement /> */}
     {/* <Strongpass /> */}
     {/* <TabButton /> */}
-    {/* <Main /> */}
+
     {/* <Script /> */}
     {/* <dynamicradiobutton /> */}
     {/* <Update /> */}
