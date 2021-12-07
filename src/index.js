@@ -12,7 +12,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 //import Booklist from './Booklist';
 //import Message from './PracticeProject/Message'
-import Counter from './PracticeProject/Counter';
+//import Counter from './PracticeProject/Counter';
 
  //import Props1 from './PracticeProject/Props1';
  //import Contact from './PracticeProject/Contact';
@@ -56,6 +56,8 @@ import Counter from './PracticeProject/Counter';
 //import Strongpass from "./StrongPassword//Strongpass";
 //import Main from "./LandingPage/Main";
 //import NumberIncrement from "./WorkingState/NumberIncrement";
+import GetValue from "./SelectMultivalue/GetValue"
+
 import * as serviceWorker from "./PracticeProject/serviceWorker";
 function App() {
   return (
@@ -72,6 +74,8 @@ function App() {
 export default App;
 ReactDOM.render(
   <React.StrictMode>
+<GetValue />
+
     {/* <NumberIncrement /> */}
     {/* <Strongpass /> */}
     {/* <TabButton /> */}
@@ -104,7 +108,7 @@ ReactDOM.render(
     {/* <RegisterForm /> */}
     {/* <Contact/> */}
     {/* <Props1 /> */}
-    <Counter />
+    {/* <Counter /> */}
     {/* <Message /> */}
     {/* <NewComponent /> */}
     {/* <FunctionalCompo />
